@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Experiment 2 - Employee Records</title>
+  <link rel="stylesheet" href="exp2.css" />
+</head>
+<body>
+
+  <h1>Employee Record System</h1>
+
+  <!-- Input Form -->
+  <div id="inputSection">
+    <h2>Add Employee</h2>
+
+    <label>Employee Name:</label>
+    <input type="text" id="empName" placeholder="Enter name" />
+
+    <label>Employee ID:</label>
+    <input type="text" id="empID" placeholder="Enter ID" />
+
+    <label>Salary (₹):</label>
+    <input type="number" id="empSalary" placeholder="Enter salary" />
+
+    <label>Department:</label>
+    <input type="text" id="empDept" placeholder="Enter department" />
+
+    <button onclick="addEmployee()">Add Employee</button>
+  </div>
+
+  <!-- Action Buttons -->
+  <div id="actions">
+    <h2>Operations</h2>
+    <button onclick="displayAll()">Display All Employees</button>
+    <button onclick="filterBySalary()">Filter Salary &gt; ₹50,000</button>
+    <button onclick="totalSalary()">Total Salary Payout</button>
+    <button onclick="averageSalary()">Average Salary</button>
+
+    <div id="deptFilter">
+      <input type="text" id="deptName" placeholder="Enter department name" />
+      <button onclick="countByDept()">Count in Department</button>
+    </div>
+  </div>
+
+  <!-- Output -->
+  <div id="result"></div>
+
+  <script src="exp2.js"></script>
+</body>
+</html>
