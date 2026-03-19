@@ -1,0 +1,92 @@
+// Document Object Model is a hierarchial repr of html documents. it defines the structure and properties of elements on a webpage 
+// Single-page Applications (SPAs)
+
+// window  object
+// document object 
+
+1. javascript can change all thw html elements of the page 
+2. js can change all the attributes of the html page 
+3. js can change all the css styles of the page  
+// js has only inline cell 
+4. js can remove all the existing elements and attributes of the html page 
+5. js can react to all the html events of the pahge
+6. js can create new html elements 
+
+---------------------------------------------------------------------------------------------
+
+// <h1 id = "demo">     </h1>
+// let x = document.getElementById("demo");
+
+//  x.innerHTML = " ";
+
+// let y = document.getElementsByClassName("demo")
+// y[0].innerHTMl = " ";
+// let x = document.getElementBy
+// let x = document.getElementsByTagName( )
+
+---------------------------------------------------------------------------------------------
+ 
+// the query selctor can give the first value 
+// the query selctor all returns all the values at occurence 
+// document.querySelctor( " " )
+// dcoument.querySelectorall ( )
+
+---------------------------------------------------------------------------------------------
+
+// let x = document.getElementById("demo").getAttribute("id");
+// let x = document.getElementById("demo").setAttribute("class" , "democlass");
+
+---------------------------------------------------------------------------------------------
+
+// STYLING 
+// let x = document.getElementById("demo").style.Color = "blue";
+// there's a differencwe btw this and css and js of the properties 
+
+---------------------------------------------------------------------------------------------
+
+// CREATE
+// let y =  document.CreateElememt("h2")
+// let par = document.getElemenByTagName("body")
+// par[0].append(y) ( target elelment k baad ); before,after,prepend(element k phle ) 
+
+---------------------------------------------------------------------------------------------
+
+
+// REMOVE 
+// y.remove()
+
+---------------------------------------------------------------------------------------------
+
+// EVENTS IN JS 
+// onclick
+// onmouseover 
+// onmousedown
+// onmouseup
+// onmousemove
+// ondblclick
+// <button onmouseover()="onMouseOver" > OnMouseOver </button>
+
+---------------------------------------------------------------------------------------------
+
+//KEYBOARD
+// onkeydown
+// onkeyup
+
+---------------------------------------------------------------------------------------------
+
+// FORM 
+// onfocus
+// onsubmit 
+// onblur
+// onchange( when u change gthe form elelment)
+
+---------------------------------------------------------------------------------------------
+
+// WINDOW 
+// onload 
+// onunload 
+// onreset 
+
+
+
+

@@ -1,0 +1,30 @@
+let add = (x,y) => {return x + y};
+console.log (add(2,4));
+
+// object repereseted by a curly bracket and it has kety value pairs 
+/// creating object by 2nd method 
+// obj is a collection of anything ( unordered collection)
+
+var person2 = new Object();
+
+perswon2.name = 'krishnkant'; // top add properties to this object 
+person2.age = 32;
+person2.address = {};
+person2.address,street = "nagar road";
+
+person2['address']['flatNO'] = 33;   // key 
+
+// arrray is an ordered collection of data 
+// collection of anything 
+
+var myinfo = new Array();
+var myinfo1 = Array();
+
+// both are same output too
+
+
+// JS arrys are zero- indexed 
+console.log(trainerinfo);
+
+// last elelment console.log(trainerinfo{trainerinfo.lentgth-1})
+

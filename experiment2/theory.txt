@@ -1,0 +1,9 @@
+// declare the array 
+now let name , epid , salary , dept 
+now unctions and objects 
+(employees.push)
+(addemployee)
+displayEmployees
+filter total salary average salary count department 
+string literal 
+for each , filter , reduce 
